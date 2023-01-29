@@ -129,12 +129,12 @@ int main() {
 // 6474280
   cout << totalHarga1;
   repeatPembayaran:
-  cout << "\n\nMasukan Tunai : ";
+  cout << "\n\nMasukan Tunai : Rp ";
   cin >> tunai;
 
     if(tunai > totalHarga1){
         cout <<"Kembalian : Rp." << tunai - totalHarga1<<endl;
-        cout <<"Terima Kasih \n";
+        cout <<"Terima Kasih Datang Kembali\n";
     }else{
         cout <<"Kurang duitnya";
         goto repeatPembayaran;
